@@ -4,7 +4,7 @@ import { green, injectScript, log } from "./utils";
 
 const init = async () => {
   await injectScript(injectUrl)
-  log(green('import chrome extension script load success'))
+  log(green('pkg chrome extension script load success'))
 }
 
 init()

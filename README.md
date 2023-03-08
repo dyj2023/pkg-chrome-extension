@@ -18,5 +18,5 @@ Javascript package needs to provide **UMD** or other browser format bundles so t
 
 ## Thanks
 
-[jsDelivr](https://www.jsdelivr.com/) - All npm assets are provided by it.
-[plasmo](https://www.npmjs.com/package/plasmo) - The Plasmo Framework is a battery-packed browser extension SDK.
+1. [jsDelivr](https://www.jsdelivr.com/) - All npm assets are provided by it.
+2. [plasmo](https://www.npmjs.com/package/plasmo) - The Plasmo Framework is a battery-packed browser extension SDK.

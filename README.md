@@ -13,7 +13,7 @@ Javascript package needs to provide **UMD** or other browser format bundles so t
 
 ## Usage
 
-1. `npm run build` this extension and install it in the browser extension page(like `chrome://extensions/`).
+1. [`Download`](https://github.com/dyj2023/pkg-chrome-extension/releases) this extension and install it in the browser extension page(like `chrome://extensions/`).
 2. Use `_pkg` in dev-tools to install packages from npm or CDN.
 
 ## Thanks

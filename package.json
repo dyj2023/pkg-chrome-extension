@@ -1,0 +1,29 @@
+{
+  "name": "import-chrome-extension",
+  "displayName": "import chrome extension",
+  "version": "0.0.1",
+  "description": "import-chrome-extension",
+  "author": "dyj",
+  "packageManager": "pnpm@6.22.2",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "package": "plasmo package"
+  },
+  "dependencies": {
+    "craie": "^0.0.10"
+  },
+  "devDependencies": {
+    "@plasmohq/prettier-plugin-sort-imports": "3.6.3",
+    "@types/chrome": "0.0.210",
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "plasmo": "0.66.0",
+    "prettier": "2.8.3",
+    "typescript": "4.9.4"
+  },
+  "manifest": {
+    "web_accessible_resources": []
+  }
+}

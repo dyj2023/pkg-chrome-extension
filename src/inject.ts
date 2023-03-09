@@ -86,7 +86,9 @@ function injectPkg(namespace: string = '_pkg') {
     }
     window[`${namespace}_esm`] = async (name: string) => {
       log(blue(`fetching esm module ${name}`))
-      return await import(`https://esm.run/${name}`)
+      const res = await import(`https://esm.run/${name}`)
+      log(green(`${name} esm Loaded`))
+      return res
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "import-chrome-extension",
   "displayName": "import chrome extension",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "import-chrome-extension",
   "author": "dyj",
   "packageManager": "pnpm@6.22.2",

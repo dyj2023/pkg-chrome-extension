@@ -1,9 +1,9 @@
-import craie from "craie";
+import clsty from "clsty";
 
-export const green = (message: string) => craie.bgEmerald.roundL.white(message)
-export const red = (message: string) => craie.roundL.bgRed.white(message)
-export const blue = (message: string) => craie.roundR.bgBlue.white(message)
-export const log = craie.log
+export const green = (message: string) => clsty.bgGreen.white(message)
+export const red = (message: string) => clsty.bgRed.white(message)
+export const blue = (message: string) => clsty.bgBlue.white(message)
+export const log = clsty.log
 
 export const injectScript = async (url) => {
   return new Promise((resolve, reject) => {

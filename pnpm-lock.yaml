@@ -7,13 +7,13 @@ specifiers:
   '@types/react': 18.0.27
   '@types/react-dom': 18.0.10
   bumpp: ^9.0.0
-  craie: ^0.0.10
+  clsty: ^0.0.1
   plasmo: 0.66.0
   prettier: 2.8.3
   typescript: 4.9.4
 
 dependencies:
-  craie: registry.npmmirror.com/craie/0.0.10
+  clsty: 0.0.1
 
 devDependencies:
   '@plasmohq/prettier-plugin-sort-imports': registry.npmmirror.com/@plasmohq/prettier-plugin-sort-imports/3.6.3_prettier@2.8.3
@@ -399,6 +399,10 @@ packages:
   /call-me-maybe/1.0.2:
     resolution: {integrity: sha512-HpX65o1Hnr9HH25ojC1YGs7HCQLq0GCOibSaWER0eNpgJ/Z1MZv2mTc7+xh6WOPxbRVcmgbv4hGU+uSQ/2xFZQ==}
     dev: true
+
+  /clsty/0.0.1:
+    resolution: {integrity: sha512-iOuo0Or7ZKVWzPOPVFybC9RQICrWsb0VfhF0TSvGRWglGB0ZDndLNmd7A08fh/gw3oODyobsiuZCxYYsGWyyFg==}
+    dev: false
 
   /cross-spawn/7.0.3:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
@@ -3476,12 +3480,6 @@ packages:
       path-type: registry.npmmirror.com/path-type/4.0.0
       yaml: registry.npmmirror.com/yaml/1.10.2
     dev: true
-
-  registry.npmmirror.com/craie/0.0.10:
-    resolution: {integrity: sha512-IRdQ3hJigCwB4NNRTYF7+lx/jf/8p0Tf8nVkF2Yh48LNiOFbeIqqA9kHKDl/0cDO67UE9d+RlGPySoay//WGMg==, registry: http://plat-registry-npm.mihoyo.com/, tarball: https://registry.npmmirror.com/craie/-/craie-0.0.10.tgz}
-    name: craie
-    version: 0.0.10
-    dev: false
 
   registry.npmmirror.com/crc-32/1.2.2:
     resolution: {integrity: sha512-ROmzCKrTnOwybPcJApAA6WBWij23HVfGVNKqqrZpuyZOHqK2CwHSvpGuyt/UNNvaIjEd8X5IFGp4Mh+Ie1IHJQ==, registry: http://plat-registry-npm.mihoyo.com/, tarball: https://registry.npmmirror.com/crc-32/-/crc-32-1.2.2.tgz}
